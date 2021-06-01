@@ -31,7 +31,7 @@ public class Opponent : MonoBehaviour
     {
         if(move == true)
         {
-            rb.AddForce(transform.forward * 40);          
+            rb.AddForce(transform.forward * 400);          
         }
         if (drawRay == true)
         {

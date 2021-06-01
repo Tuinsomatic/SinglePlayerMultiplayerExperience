@@ -23,19 +23,19 @@ public class Move : MonoBehaviour
             //BASIC CONTROLS
             if (Input.GetKey("left"))
             {
-                transform.Rotate(0, -0.05f, 0);
+                transform.Rotate(0, -0.5f, 0);
             }
             if (Input.GetKey("right"))
             {
-                transform.Rotate(0, 0.05f, 0);
+                transform.Rotate(0, 0.5f, 0);
             }
             if (Input.GetKey("up"))
             {
-                rb.AddForce(transform.forward * 40);
+                rb.AddForce(transform.forward * 400);
             }
             if (Input.GetKey("down"))
             {
-                rb.AddForce(-transform.forward * 40);
+                rb.AddForce(-transform.forward * 400);
             }
         }
         if (Input.GetKeyDown("space"))

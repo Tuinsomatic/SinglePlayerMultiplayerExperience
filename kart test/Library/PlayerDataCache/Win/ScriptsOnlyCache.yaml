@@ -48,13 +48,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11850}
     - Class: 114
-      Script: {instanceID: 12420}
+      Script: {instanceID: 12426}
     - Class: 114
-      Script: {instanceID: 13358}
+      Script: {instanceID: 13364}
     - Class: 114
-      Script: {instanceID: 13676}
+      Script: {instanceID: 13682}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
